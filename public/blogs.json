@@ -1,0 +1,40 @@
+[
+    {  
+        "id": 1,
+      "cover_img": "https://i.ibb.co/NKbswVk/cover-img1.jpg",
+      "title": "Mystical Adventures",
+      "author": "Jane Doe",
+      "author_img": "https://i.ibb.co/1nrBmYL/author1.jpg",
+      "hashtag": "#Adventure #Fantasy",
+      "reading_time_min": 45
+    },
+    {
+        "id": 2,
+      "cover_img": "https://i.ibb.co/hZGsQkC/cover-img2.jpg",
+      "title": "Code Chronicles",
+      "author": "John Smith",
+      "author_img": "https://i.ibb.co/94SnmD3/author2.jpg",
+      "hashtag": "#Programming #Tech",
+      "reading_time_min": 30
+    },
+    {
+        "id": 3,
+      "cover_img": "https://i.ibb.co/JpJxKk0/cover-img3.jpg",
+      "title": "Cooking Delights",
+      "author": "Alice Brown",
+      "author_img": "https://i.ibb.co/RyNgBbj/author3.jpg",
+      "hashtag": "#Cooking #Recipes",
+      "reading_time_min": 60
+    },
+    {
+        "id": 4,
+      "cover_img": "https://i.ibb.co/1J1fjxN/cover-img4.jpg",
+      "title": "City Skylines",
+      "author": "Robert Green",
+      "author_img": "https://i.ibb.co/dQDxnpK/author4.jpg",
+      "hashtag": "#Urban #Architecture",
+      "reading_time_min": 50
+    }
+ 
+  ]
+  
