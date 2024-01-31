@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import { MdBookmarks } from "react-icons/md";
-const Blog = ({blog, handleAddBookmarks}) => {
-     const {title,cover_img,author,author_img,reading_time_min,post_date,hashtag} = blog
+const Blog = ({blog, handleAddBookmarks,handleMarkAsRead}) => {
+     const {id,title,cover_img,author,author_img,reading_time_min,post_date,hashtag} = blog
     return (
         <div>
             <img className='rounded mt-6 '  src={cover_img} alt={`cover picture of the title ${title}`} />
@@ -19,14 +19,18 @@ const Blog = ({blog, handleAddBookmarks}) => {
                 </div>
             </div>
             <h1 className='text-4xl'>{title}</h1>
-            <h2 className='text-gray-600 text-md'>{hashtag}</h2>
+            <h2 className='text-gray-600 text-md my-4'>{hashtag}</h2>
+            <button onClick={()=>handleMarkAsRead(id,reading_time_min)} className='text-purple-700 my-2 font-semibold underline'>Mark As Read</button>
         </div>
     );
 };
 
-export default Blog;
-
 Blog.propTypes ={
     blog:PropTypes.object.isRequired,
-    handleAddBookmarks:PropTypes.func
+    handleAddBookmarks:PropTypes.func.isRequired,
+    handleMarkAsRead:PropTypes.func
+
+   
 }
+export default Blog;
+
